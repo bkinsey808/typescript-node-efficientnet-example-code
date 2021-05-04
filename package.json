@@ -1,0 +1,25 @@
+{
+  "name": "typescript-node-efficientnet-example-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^15.0.1",
+    "@types/node-fetch": "^2.5.10",
+    "node-efficientnet": "^2.0.3",
+    "node-typescript": "^0.1.3",
+    "prettier": "^2.2.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
